@@ -1,7 +1,7 @@
 [project]
 name = "copycat"
 version = "0.1.0"
-description = "Add your description here"
+description = "Read and restore MIFARE Classic card memory with an ACR122U"
 readme = "README.md"
 authors = [
     { name = "S-Sebb", email = "a794194678@gmail.com" }
@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-copycat = "copycat:main"
+copycat = "copycat.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.13.1,<0.14.0"]
