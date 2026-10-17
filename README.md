@@ -113,3 +113,6 @@ Tests use an in-memory PC/SC reader to exercise key masking, authentication loss
 1K/4K layouts, private files, partial dumps, overwrite confirmation, write ordering,
 UID changes, failure handling, and read-back verification. They never write a
 physical card.
+
+GitHub Actions runs these tests on Ubuntu with the project's pinned Python 3.12
+environment for pull requests and pushes to `main`.
